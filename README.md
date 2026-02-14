@@ -30,21 +30,5 @@ Instead of treating all sensor data equally, the system:
 
 The architecture reduces latency, optimizes throughput, and enhances interpretability.
 
----
 
-## 🧠 Core Innovation
 
-> Intelligent routing based on event severity instead of static stream processing.
-
-### 🔥 Severity-Based Dynamic Routing
-
-| Severity Level | Processing Path |
-|---------------|----------------|
-| 🟢 Low        | Lightweight Local Pipeline |
-| 🟡 Medium     | Spark Streaming Pipeline |
-| 🔴 High       | Kafka High-Priority Pipeline |
-| 🚨 Critical   | LLM Reasoning + Advanced Analytics |
-
----
-
-## 🏗️ System Architecture
